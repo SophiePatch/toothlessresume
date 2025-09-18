@@ -1,0 +1,148 @@
+/* Reset */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+  }
+
+body {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.4px;
+  word-spacing: 1px;
+  background: url("images/dragon-scales.jpg") repeat;
+  background-size: 300px;
+  color: #222;
+  padding: 20px;
+  }
+
+
+.resume {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 12px;
+  border-top: 6px solid #1a472a;
+  background: rgba(255,255,255,0.95);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  }
+
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  }
+
+.header h1 {
+  font-size: 2.2rem;
+    color: #1a472a;
+  }
+
+.header p, .header a {
+  font-size: 0.95rem;
+  color: #444;
+  text-decoration: none;
+  }
+
+
+/* Links */
+a:link { 
+  color: #1a472a; 
+  }
+
+a:visited { 
+  color: #333; 
+  }
+
+a:hover { 
+  color: #2f855a; 
+  text-decoration: underline; 
+  }
+
+a:focus { 
+  outline: 2px dashed #1a472a; 
+  outline-offset: 2px; 
+  }
+
+a:active { 
+  color: #ff4500; 
+  }
+
+
+h2 {
+  border-bottom: 2px solid #1a472a;
+  color: #1a472a;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  }
+
+
+.objective p {
+  font-style: italic;
+  margin-bottom: 20px;
+  }
+
+.objective p::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a472a;
+  }
+
+
+/* Custom bullets */
+ul {
+  list-style: none;
+  padding-left: 1.8em;
+  }
+
+ul li {
+  position: relative;
+  margin-bottom: 6px;
+  line-height: 1.4;
+  }
+
+ul li::before {
+  content: "";
+  position: absolute;
+  left: -1.6em;
+  top: 0.35em;
+  width: 16px;
+  height: 16px;
+  background: url("images/dragon-icon.png") no-repeat center;
+  background-size: contain;
+  }
+
+
+/* Sections */
+.education p { 
+  margin-bottom: 15px; 
+  }
+
+.experience .job { 
+  margin-bottom: 20px; 
+  }
+
+.experience h3 { 
+  font-size: 1.1rem; 
+  color: #333; 
+  }
+
+.experience .date { 
+  font-size: 0.9rem; 
+  color: #666; 
+  margin-bottom: 5px; 
+  }
+
+.experience ul li { 
+  margin-bottom: 6px; 
+  }
+
+.references li { 
+  margin-bottom: 6px; 
+  }
+
+
+/* Used ChatGPT to get some help with CSS code */
